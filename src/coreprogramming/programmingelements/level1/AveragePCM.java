@@ -1,4 +1,4 @@
-package CoreProgramming.ControlFlow.ProgrammingElements.Level1;
+package ProgrammingElements.Level1;
 
 public class AveragePCM {
     public static void main(String[] args) {

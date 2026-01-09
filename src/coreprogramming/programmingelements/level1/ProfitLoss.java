@@ -1,4 +1,4 @@
-package CoreProgramming.ControlFlow.ProgrammingElements.Level1;
+package ProgrammingElements.Level1;
 
 public class ProfitLoss {
     public static void main(String[] args) {

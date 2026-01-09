@@ -1,4 +1,4 @@
-package CoreProgramming.ControlFlow.ProgrammingElements.Level1;
+package ProgrammingElements.Level1;
 import java.util.Scanner;
 
 public class KmToMiles {
