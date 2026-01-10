@@ -1,4 +1,4 @@
-package ProgrammingElements.Level1;
+package coreprogramming.programmingelements.level1;
 
 public class AgeOfHarry {
     public static void main(String[] args) {

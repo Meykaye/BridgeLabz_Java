@@ -1,4 +1,4 @@
-package ProgrammingElements.Level1;
+package coreprogramming.programmingelements.level1;
 import java.util.Scanner;
 
 public class HeightConverter {
