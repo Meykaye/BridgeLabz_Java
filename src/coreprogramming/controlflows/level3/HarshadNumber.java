@@ -1,4 +1,4 @@
-package ControlFlow.Level3;
+package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
 class HarshadNumber {

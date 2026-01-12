@@ -1,4 +1,4 @@
-package ControlFlow.Level3;
+package coreprogramming.controlflows.level3;
 class DayOfWeek {
     public static void main(String[] args) {
         int m = Integer.parseInt(args[0]);
