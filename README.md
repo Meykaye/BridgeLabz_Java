@@ -34,3 +34,14 @@
 - **Issues faced**:
   - None
 ---
+### **12/01/2026**
+
+- **What I did**:
+  - Worked with Arrays Level 1, 2 and 3
+
+- **What I’ll do next**:
+  - Arrays Level 1, 2
+
+- **Issues faced**:
+  - None
+---
