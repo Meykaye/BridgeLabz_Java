@@ -1,4 +1,4 @@
-# BridgeLabz_Java
+# Daily Project Log BridgeLabz-Training
 
 ### **08/01/2026**
 
