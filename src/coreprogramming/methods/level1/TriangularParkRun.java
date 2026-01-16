@@ -1,6 +1,7 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
+// Calculates how many complete rounds can be run in a 5000m distance around a triangular park
 public class TriangularParkRun {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class TriangularParkRun {
         sc.close();
     }
 
+    // Calculates number of rounds by dividing total distance by park perimeter
     public static double calculateRounds(double a, double b, double c) {
         double perimeter = a + b + c;
         return 5000 / perimeter;

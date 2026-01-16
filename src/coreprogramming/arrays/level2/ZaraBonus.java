@@ -1,11 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
+// This class calculates bonus for employees based on years of service
 public class ZaraBonus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double[][] empData = new double[10][2];
+        double[][] empData = new double[10][2];  // [0]=salary, [1]=years of service
         double[] bonus = new double[10];
         double[] newSalary = new double[10];
 
@@ -13,6 +14,7 @@ public class ZaraBonus {
         double totalOldSalary = 0;
         double totalNewSalary = 0;
 
+        // Read salary and years of service for 10 employees, validating positive values
         for (int i = 0; i < 10; i++) {
             System.out.println("Enter salary for employee " + (i + 1));
             double salary = sc.nextDouble();
@@ -30,10 +32,12 @@ public class ZaraBonus {
             empData[i][1] = years;
         }
 
+        // Calculate bonus (5% for >5 years, 2% otherwise) and new salary
         for (int i = 0; i < 10; i++) {
             double salary = empData[i][0];
             double years = empData[i][1];
 
+            // Bonus calculation based on service duration
             if (years > 5) {
                 bonus[i] = salary * 0.05;
             } else {
@@ -47,6 +51,7 @@ public class ZaraBonus {
             totalNewSalary += newSalary[i];
         }
 
+        // Display summary totals
         System.out.println("Total Old Salary: " + totalOldSalary);
         System.out.println("Total Bonus Payout: " + totalBonus);
         System.out.println("Total New Salary: " + totalNewSalary);

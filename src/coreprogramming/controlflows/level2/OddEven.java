@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Identifies and prints which numbers from 1 to n are odd or even
 public class OddEven {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

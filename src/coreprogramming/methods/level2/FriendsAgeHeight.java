@@ -1,12 +1,15 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
+// Finds the youngest person and the tallest person among 3 friends
 public class FriendsAgeHeight {
+    // Finds minimum age among friends
     static int youngest(int[] a) {
         int m = a[0];
         for (int x : a) if (x < m) m = x;
         return m;
     }
+    // Finds maximum height among friends
     static double tallest(double[] h) {
         double m = h[0];
         for (double x : h) if (x > m) m = x;

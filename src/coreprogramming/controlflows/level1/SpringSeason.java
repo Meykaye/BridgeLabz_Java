@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
+// Determines if a given date falls within the spring season
 public class SpringSeason {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

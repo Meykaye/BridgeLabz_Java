@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to find character frequency using nested loops
 public class FrequencyNestedLoop {
+    // Calculate frequency of each character using nested loops
     public static String[] frequency(String text) {
         char[] chars = text.toCharArray();
         int[] freq = new int[chars.length];

@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
+// Calculates the factorial of a number using a for loop
 public class FactorialFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

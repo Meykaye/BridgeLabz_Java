@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Checks if a number is an Armstrong number (sum of cubes of digits equals the number)
 class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

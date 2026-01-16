@@ -1,8 +1,10 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
+// Program to compare custom lowercase conversion with built-in toLowerCase method
 public class LowerCaseConversion {
 
+    // Convert each uppercase letter to lowercase by adding 32 to ASCII value
     static String convertToLower(String s) {
         String result = "";
         for (int i = 0; i < s.length(); i++) {
@@ -15,6 +17,7 @@ public class LowerCaseConversion {
         return result;
     }
 
+    // Compare two strings character by character
     static boolean compareStrings(String a, String b) {
         if (a.length() != b.length()) return false;
         for (int i = 0; i < a.length(); i++) {

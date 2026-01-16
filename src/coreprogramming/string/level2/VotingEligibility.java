@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to check voting eligibility for random ages
 public class VotingEligibility {
 
+    // Generate random ages for testing
     static int[] generateAges(int n) {
         int[] ages = new int[n];
         for (int i = 0; i < n; i++)
@@ -10,6 +12,7 @@ public class VotingEligibility {
         return ages;
     }
 
+    // Check voting eligibility (age >= 18) for each person
     static String[][] checkVoting(int[] ages) {
         String[][] result = new String[ages.length][2];
         for (int i = 0; i < ages.length; i++) {
@@ -19,6 +22,7 @@ public class VotingEligibility {
         return result;
     }
 
+    // Display the voting data in tabular format
     static void display(String[][] data) {
         for (String[] row : data)
             System.out.println(row[0] + "\t" + row[1]);

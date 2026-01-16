@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Checks if a number is prime by testing divisibility up to its square root
 class PrimeChecker {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

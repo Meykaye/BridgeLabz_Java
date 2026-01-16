@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Implements FizzBuzz: prints Fizz for multiples of 3, Buzz for multiples of 5, FizzBuzz for both
 public class FizzBuzzFor {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

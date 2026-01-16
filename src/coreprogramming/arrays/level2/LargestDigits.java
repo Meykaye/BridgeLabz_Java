@@ -1,6 +1,7 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
+// This class finds the largest and second-largest digits in a number
 public class LargestDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,6 +12,7 @@ public class LargestDigits {
         int[] digits = new int[maxDigit];
         int index = 0;
 
+        // Extract digits with dynamic array resizing if needed
         while (number != 0) {
             if (index == maxDigit) {
                 maxDigit += 10;
@@ -28,6 +30,7 @@ public class LargestDigits {
         int largest = 0;
         int secondLargest = 0;
 
+        // Find largest and second largest digits
         for (int i = 0; i < index; i++) {
             if (digits[i] > largest) {
                 secondLargest = largest;

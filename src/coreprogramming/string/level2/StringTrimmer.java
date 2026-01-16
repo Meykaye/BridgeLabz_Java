@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to compare custom string trim with built-in trim method
 public class StringTrimmer {
 
+    // Find the start and end indices of non-whitespace characters
     static int[] findTrimIndexes(String s) {
         int start = 0, end = s.length() - 1;
         while (start <= end && s.charAt(start) == ' ') start++;
@@ -10,12 +12,14 @@ public class StringTrimmer {
         return new int[]{start, end + 1};
     }
 
+    // Create substring manually from start to end index
     static String substring(String s, int start, int end) {
         String r = "";
         for (int i = start; i < end; i++) r += s.charAt(i);
         return r;
     }
 
+    // Compare two strings character by character
     static boolean compare(String a, String b) {
         if (a.length() != b.length()) return false;
         for (int i = 0; i < a.length(); i++)

@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Performs basic arithmetic operations (+, -, *, /) based on user input
 class SimpleCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

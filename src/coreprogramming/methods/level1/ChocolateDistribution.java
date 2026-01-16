@@ -1,6 +1,7 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
+// Divides chocolates equally among children and calculates remaining chocolates
 public class ChocolateDistribution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class ChocolateDistribution {
         sc.close();
     }
 
+    // Calculates chocolates per child and remaining chocolates using division and modulo
     public static int[] findRemainderAndQuotient(int number, int divisor) {
         int eachChild = number / divisor;
         int remaining = number % divisor;

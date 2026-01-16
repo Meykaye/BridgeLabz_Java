@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Calculates the power of a number (base^exponent) using a for loop
 public class PowerFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

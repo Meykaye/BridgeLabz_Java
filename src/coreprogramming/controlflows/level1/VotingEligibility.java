@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
+// Checks if a person is eligible to vote based on their age
 public class VotingEligibility {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

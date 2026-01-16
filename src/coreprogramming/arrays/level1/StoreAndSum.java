@@ -1,6 +1,7 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
+// This class stores positive numbers and calculates their sum
 public class StoreAndSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,6 +9,7 @@ public class StoreAndSum {
         double total = 0.0;
         int index = 0;
 
+        // Read positive numbers until a non-positive value or array limit is reached
         while (true) {
             double num = sc.nextDouble();
             if (num <= 0 || index == 10) {
@@ -16,6 +18,7 @@ public class StoreAndSum {
             arr[index++] = num;
         }
 
+        // Display each number and accumulate the total sum
         for (int i = 0; i < index; i++) {
             System.out.println(arr[i]);
             total += arr[i];

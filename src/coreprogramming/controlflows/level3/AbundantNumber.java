@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Checks if a number is abundant (sum of divisors excluding itself exceeds the number)
 class AbundantNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

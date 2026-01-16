@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Prints the multiplication table for a number from 6 to 9
 public class MultiplicationTable {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

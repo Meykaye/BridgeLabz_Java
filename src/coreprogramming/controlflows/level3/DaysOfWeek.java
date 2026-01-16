@@ -1,4 +1,6 @@
 package coreprogramming.controlflows.level3;
+
+// Calculates the day of the week for a given date using Zeller's congruence algorithm
 class DayOfWeek {
     public static void main(String[] args) {
         int m = Integer.parseInt(args[0]);

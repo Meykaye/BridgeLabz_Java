@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to create a table showing each word and its length
 public class WordLengthTable {
 
+    // Find string length using exception handling
     static int findLength(String s) {
         int c = 0;
         try {
@@ -14,6 +16,7 @@ public class WordLengthTable {
         }
     }
 
+    // Split string into individual words
     static String[] splitWords(String text) {
         int count = 1;
         for (int i = 0; i < findLength(text); i++) {
@@ -34,6 +37,7 @@ public class WordLengthTable {
         return words;
     }
 
+    // Create a 2D table with words and their corresponding lengths
     static String[][] createWordLengthTable(String[] words) {
         String[][] table = new String[words.length][2];
         for (int i = 0; i < words.length; i++) {

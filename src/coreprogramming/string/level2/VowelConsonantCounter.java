@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to count vowels and consonants in a string
 public class VowelConsonantCounter {
 
+    // Check if character is vowel (1), consonant (2), or neither (0)
     static int checkChar(char c) {
         if (c >= 'A' && c <= 'Z') c = (char)(c + 32);
         if (c < 'a' || c > 'z') return 0;
@@ -10,6 +12,7 @@ public class VowelConsonantCounter {
         return 2;
     }
 
+    // Count total vowels and consonants in the text
     static int[] countVowelsConsonants(String text) {
         int v = 0, c = 0;
         for (int i = 0; i < text.length(); i++) {

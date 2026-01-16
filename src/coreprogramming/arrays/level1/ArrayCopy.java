@@ -1,6 +1,7 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
+// This class copies a 2D matrix into a 1D array
 public class ArrayCopy {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,6 +12,7 @@ public class ArrayCopy {
         int[] array = new int[rows * cols];
         int index = 0;
 
+        // Read matrix elements and copy them sequentially to a 1D array
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 matrix[i][j] = sc.nextInt();

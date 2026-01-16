@@ -1,16 +1,18 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
+// This class uses 2D array to store marks and calculates grades for students
 public class StudentGrades2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
 
-        int[][] marks = new int[n][3];
+        int[][] marks = new int[n][3];  // [0]=Physics, [1]=Chemistry, [2]=Maths
         double[] percentage = new double[n];
         String[] grade = new String[n];
 
+        // Read marks for three subjects, validating non-negative values
         for (int i = 0; i < n; i++) {
             int p = sc.nextInt();
             int c = sc.nextInt();
@@ -26,9 +28,11 @@ public class StudentGrades2D {
             marks[i][2] = m;
         }
 
+        // Calculate percentage and assign grade for each student
         for (int i = 0; i < n; i++) {
             percentage[i] = (marks[i][0] + marks[i][1] + marks[i][2]) / 3.0;
 
+            // Grade assignment based on percentage thresholds
             if (percentage[i] >= 80)
                 grade[i] = "A";
             else if (percentage[i] >= 70)
@@ -43,6 +47,7 @@ public class StudentGrades2D {
                 grade[i] = "R";
         }
 
+        // Display results
         for (int i = 0; i < n; i++) {
             System.out.println(
                     marks[i][0] + " " +

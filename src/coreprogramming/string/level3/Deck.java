@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.*;
 
+// Program to create and shuffle a deck of cards, then distribute to players
 public class Deck {
+    // Create a standard deck of 52 playing cards (4 suits × 13 ranks)
     public static String[] initializeDeck(){
         String[] suits = {"Hearts","Diamonds","Clubs","Spades"};
         String[] ranks = {"2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace"};
@@ -15,6 +17,7 @@ public class Deck {
         return deck;
     }
 
+    // Shuffle deck using Fisher-Yates shuffling algorithm
     public static String[] shuffleDeck(String[] deck){
         int n = deck.length;
         for(int i=0;i<n;i++){
@@ -26,6 +29,7 @@ public class Deck {
         return deck;
     }
 
+    // Distribute cards from deck to multiple players
     public static String[][] distributeDeck(String[] deck,int players,int cards){
         if(players*cards>deck.length) return null;
         String[][] result = new String[players][cards];
@@ -37,6 +41,7 @@ public class Deck {
         return result;
     }
 
+    // Print each player's cards
     public static void printPlayersCards(String[][] players){
         for(int i=0;i<players.length;i++){
             System.out.println("Player "+(i+1)+": "+Arrays.toString(players[i]));

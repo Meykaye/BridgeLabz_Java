@@ -1,7 +1,9 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
+// This class finds and displays the maximum of three numbers
 public class MaximumOfThree {
+    // Find the maximum among three numbers using Math.max
     static int findMax(int a, int b, int c) {
         return Math.max(a, Math.max(b, c));
     }

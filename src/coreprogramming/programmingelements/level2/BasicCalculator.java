@@ -1,12 +1,14 @@
 package coreprogramming.programmingelements.level2;
 import java.util.Scanner;
 
+// This class performs all basic arithmetic operations on two input numbers
 public class BasicCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double number1 = input.nextDouble();
         double number2 = input.nextDouble();
 
+        // Perform all basic operations: addition, subtraction, multiplication, division
         double add = number1 + number2;
         double sub = number1 - number2;
         double mul = number1 * number2;

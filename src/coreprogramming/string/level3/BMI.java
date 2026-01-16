@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.*;
 
+// Program to calculate BMI (Body Mass Index) and determine health status
 public class BMI {
+    // Calculate BMI for each person and determine health status (Underweight, Normal, Overweight, Obese)
     public static String[][] calculateBMI(double[][] data){
         String[][] result = new String[data.length][4];
         for(int i=0;i<data.length;i++){
@@ -21,6 +23,7 @@ public class BMI {
         return result;
     }
 
+    // Display 2D array in formatted table output
     public static void display2D(String[][] arr){
         System.out.printf("%-10s %-10s %-10s %-10s\n","Height","Weight","BMI","Status");
         for(String[] row: arr){

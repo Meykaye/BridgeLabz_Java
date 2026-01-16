@@ -1,7 +1,9 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
+// This class calculates factorial using recursion
 public class RecursiveFactorial {
+    // Calculate factorial recursively (base case: 0! = 1)
     static long factorial(int n) {
         if (n == 0) return 1;
         return n * factorial(n - 1);

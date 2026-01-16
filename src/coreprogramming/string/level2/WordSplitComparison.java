@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to compare custom word splitting with built-in split method
 public class WordSplitComparison {
 
+    // Find string length by attempting to access each character until exception
     static int findLength(String s) {
         int c = 0;
         try {
@@ -15,6 +17,7 @@ public class WordSplitComparison {
         }
     }
 
+    // Split string into words based on space delimiter
     static String[] splitWords(String text) {
         int len = findLength(text);
         int count = 1;
@@ -38,6 +41,7 @@ public class WordSplitComparison {
         return words;
     }
 
+    // Compare two string arrays for equality
     static boolean compareArrays(String[] a, String[] b) {
         if (a.length != b.length) return false;
         for (int i = 0; i < a.length; i++) {

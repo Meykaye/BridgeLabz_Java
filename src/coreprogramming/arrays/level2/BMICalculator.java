@@ -1,6 +1,7 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
+// This class calculates BMI for multiple people and categorizes them
 public class BMICalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,14 +13,17 @@ public class BMICalculator {
         double[] bmi = new double[n];
         String[] status = new String[n];
 
+        // Read weight and height for n people
         for (int i = 0; i < n; i++) {
             weight[i] = sc.nextDouble();
             height[i] = sc.nextDouble();
         }
 
+        // Calculate BMI and assign weight status category for each person
         for (int i = 0; i < n; i++) {
             bmi[i] = weight[i] / (height[i] * height[i]);
 
+            // Categorize based on BMI thresholds
             if (bmi[i] < 18.5)
                 status[i] = "Underweight";
             else if (bmi[i] < 25)
@@ -30,6 +34,7 @@ public class BMICalculator {
                 status[i] = "Obese";
         }
 
+        // Output results for each person
         for (int i = 0; i < n; i++) {
             System.out.println(height[i] + " " + weight[i] + " " + bmi[i] + " " + status[i]);
         }

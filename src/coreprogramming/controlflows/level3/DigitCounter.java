@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Counts the total number of digits in a given number
 class DigitCounter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

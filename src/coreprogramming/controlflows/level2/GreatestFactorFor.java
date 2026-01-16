@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Finds the greatest factor of a number (excluding the number itself) using a for loop
 public class GreatestFactorFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,12 +1,14 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
+// This class generates and displays the multiplication table of a number (1-10)
 public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] table = new int[10];
 
+        // Store multiplication results in array
         for (int i = 1; i <= 10; i++) {
             table[i - 1] = number * i;
         }

@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to find the shortest and longest words in a sentence
 public class ShortestLongestWord {
 
+    // Find string length using exception handling
     static int findLength(String s) {
         int c = 0;
         try {
@@ -12,6 +14,7 @@ public class ShortestLongestWord {
         }
     }
 
+    // Split string into individual words by space delimiter
     static String[] splitWords(String text) {
         int count = 1;
         for (int i = 0; i < findLength(text); i++)
@@ -31,6 +34,7 @@ public class ShortestLongestWord {
         return words;
     }
 
+    // Find minimum and maximum word lengths in the array
     static int[] findMinMax(String[] words) {
         int min = findLength(words[0]);
         int max = min;

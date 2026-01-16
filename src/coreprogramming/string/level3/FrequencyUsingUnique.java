@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to count character frequency by finding unique characters first
 public class FrequencyUsingUnique {
+    // Extract unique characters from the string
     public static char[] findUniqueChars(String text) {
         char[] temp = new char[text.length()];
         int index = 0;
@@ -18,6 +20,7 @@ public class FrequencyUsingUnique {
         return result;
     }
 
+    // Count frequency of each unique character
     public static String[][] frequency(String text) {
         char[] unique = findUniqueChars(text);
         String[][] result = new String[unique.length][2];

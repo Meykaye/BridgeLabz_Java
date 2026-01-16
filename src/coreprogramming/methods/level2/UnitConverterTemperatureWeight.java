@@ -1,7 +1,9 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
+// Converts between: Fahrenheit/Celsius, pounds/kg, gallons/liters
 public class UnitConverterTemperatureWeight {
+    // Temperature and weight conversions: F to C, C to F, pounds to kg, kg to pounds, gallons to liters, liters to gallons
     static double fToC(double v){return (v-32)*5/9;}
     static double cToF(double v){return (v*9/5)+32;}
     static double poundsToKg(double v){return v*0.453592;}

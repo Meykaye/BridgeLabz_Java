@@ -1,13 +1,16 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to find all unique characters in a string
 public class UniqueCharacters {
+    // Find string length without using built-in length() method
     public static int lengthWithoutLength(String s) {
         int count = 0;
         try { while(true) { s.charAt(count); count++; } } catch(Exception e) {}
         return count;
     }
 
+    // Extract and return all unique characters from the string
     public static char[] findUniqueChars(String text) {
         int len = lengthWithoutLength(text);
         char[] temp = new char[len];

@@ -1,8 +1,10 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to find string length without using built-in length() method
 public class StringLengthFinder {
 
+    // Find length by attempting charAt until exception is caught
     static int findLength(String text) {
         int count = 0;
         if (text == null) return 0;

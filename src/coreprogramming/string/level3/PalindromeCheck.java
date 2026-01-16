@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to check if a string is a palindrome using multiple approaches
 public class PalindromeCheck {
+    // Check palindrome using two-pointer approach with loop
     public static boolean isPalindromeLoop(String s) {
         int start = 0, end = s.length() - 1;
         while (start < end) {
@@ -11,12 +13,14 @@ public class PalindromeCheck {
         return true;
     }
 
+    // Check palindrome using recursive two-pointer approach
     public static boolean isPalindromeRec(String s, int start, int end) {
         if (start >= end) return true;
         if (s.charAt(start) != s.charAt(end)) return false;
         return isPalindromeRec(s, start + 1, end - 1);
     }
 
+    // Check palindrome by reversing string and comparing with original
     public static boolean isPalindromeReverse(String s) {
         char[] arr = s.toCharArray();
         char[] rev = new char[arr.length];

@@ -1,12 +1,15 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
+// Program to demonstrate StringIndexOutOfBoundsException and exception handling
 public class StringIndexOutOfBoundsDemo {
 
+    // Attempt to access character at invalid index to trigger exception
     static void generateException(String s) {
         s.charAt(s.length());
     }
 
+    // Handle StringIndexOutOfBoundsException by catching it
     static void handleException(String s) {
         try {
             s.charAt(s.length());

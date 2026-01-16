@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to count frequency of each character in a string
 public class FrequencyChar {
+    // Build frequency table of all characters in the string
     public static String[][] frequency(String text) {
         int[] freq = new int[256];
         for (int i = 0; i < text.length(); i++) freq[text.charAt(i)]++;

@@ -1,12 +1,15 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
+// Program to simulate Rock-Paper-Scissors game between player and computer
 public class RockPaperScissorsGame {
+    // Generate random choice for computer: rock, paper, or scissors
     static String computerChoice() {
         int r = (int)(Math.random() * 3);
         return r == 0 ? "rock" : r == 1 ? "paper" : "scissors";
     }
 
+    // Determine winner: 1 for user, -1 for computer, 0 for tie
     static int findWinner(String user, String comp) {
         if (user.equals(comp)) return 0;
         if (user.equals("rock") && comp.equals("scissors")) return 1;

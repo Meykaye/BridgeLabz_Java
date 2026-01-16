@@ -1,6 +1,9 @@
 package coreprogramming.string.level2;
+
+// Program to generate student scores and calculate statistics (total, average, percentage, grade)
 public class StudentScoreCard {
 
+    // Generate random scores for students across three subjects
     static int[][] generateScores(int n) {
         int[][] scores = new int[n][3];
         for (int i = 0; i < n; i++)
@@ -9,6 +12,7 @@ public class StudentScoreCard {
         return scores;
     }
 
+    // Calculate total, average, and percentage for each student
     static double[][] calculateStats(int[][] scores) {
         double[][] stats = new double[scores.length][4];
         for (int i = 0; i < scores.length; i++) {
@@ -20,6 +24,7 @@ public class StudentScoreCard {
         return stats;
     }
 
+    // Assign grades based on percentage (A: 90+, B: 75+, C: 60+, D: <60)
     static String[] calculateGrades(double[][] stats) {
         String[] grades = new String[stats.length];
         for (int i = 0; i < stats.length; i++) {

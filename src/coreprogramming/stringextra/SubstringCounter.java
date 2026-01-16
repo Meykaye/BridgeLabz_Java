@@ -1,6 +1,7 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
+// This class counts how many times a substring appears in a given text
 public class SubstringCounter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,6 +9,7 @@ public class SubstringCounter {
         String sub = sc.nextLine();
         int count = 0;
 
+        // Check each position in text for substring match
         for (int i = 0; i <= text.length() - sub.length(); i++) {
             if (text.substring(i, i + sub.length()).equals(sub))
                 count++;

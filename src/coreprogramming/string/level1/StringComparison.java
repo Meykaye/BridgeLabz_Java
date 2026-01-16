@@ -1,8 +1,10 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
+// Program to compare custom string comparison with built-in equals method
 public class StringComparison {
 
+    // Compare two strings character by character
     static boolean compareUsingCharAt(String a, String b) {
         if (a.length() != b.length()) return false;
         for (int i = 0; i < a.length(); i++) {

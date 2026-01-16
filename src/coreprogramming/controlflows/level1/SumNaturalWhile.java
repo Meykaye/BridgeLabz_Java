@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
+// Calculates the sum of first n natural numbers using a while loop and verifies with formula
 public class SumNaturalWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

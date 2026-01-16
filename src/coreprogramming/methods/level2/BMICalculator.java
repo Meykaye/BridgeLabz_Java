@@ -1,11 +1,14 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
+// Calculates BMI for 10 people and classifies them based on BMI value
 public class BMICalculator{
+    // Calculates BMI: weight(kg) / (height(m))^2. Height is converted from cm to m
     static double bmi(double w,double h){
         h=h/100;
         return w/(h*h);
     }
+    // Returns BMI status: Underweight, Normal, Overweight, or Obese
     static String status(double b){
         if(b<18.5) return "Underweight";
         if(b<25) return "Normal";

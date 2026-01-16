@@ -1,6 +1,7 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
+// Finds the quotient and remainder when dividing a number by a divisor
 public class QuotientRemainder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class QuotientRemainder {
         sc.close();
     }
 
+    // Divides number by divisor and returns both quotient and remainder
     private static int[] findRemainderAndQuotient(int number, int divisor) {
         int quotient = number / divisor;
         int remainder = number % divisor;

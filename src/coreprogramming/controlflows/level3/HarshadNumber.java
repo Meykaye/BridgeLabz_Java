@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Checks if a number is a Harshad number (divisible by the sum of its digits)
 class HarshadNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

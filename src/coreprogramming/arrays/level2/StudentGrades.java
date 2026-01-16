@@ -1,6 +1,7 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
+// This class calculates student percentage and assigns grades based on subject marks
 public class StudentGrades {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,6 +14,7 @@ public class StudentGrades {
         double[] percentage = new double[n];
         String[] grade = new String[n];
 
+        // Read marks for three subjects, validating non-negative values
         for (int i = 0; i < n; i++) {
             int p = sc.nextInt();
             int c = sc.nextInt();
@@ -28,9 +30,11 @@ public class StudentGrades {
             maths[i] = m;
         }
 
+        // Calculate percentage and assign grade for each student
         for (int i = 0; i < n; i++) {
             percentage[i] = (physics[i] + chemistry[i] + maths[i]) / 3.0;
 
+            // Grade assignment based on percentage thresholds
             if (percentage[i] >= 80)
                 grade[i] = "A";
             else if (percentage[i] >= 70)
@@ -45,6 +49,7 @@ public class StudentGrades {
                 grade[i] = "R";
         }
 
+        // Display results
         for (int i = 0; i < n; i++) {
             System.out.println(
                     physics[i] + " " +

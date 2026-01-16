@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Calculates average marks and assigns grade/remarks based on score thresholds
 class GradeCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

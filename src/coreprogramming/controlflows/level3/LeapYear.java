@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
+// Determines if a given year is a leap year using the Gregorian calendar rules
 class LeapYear {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

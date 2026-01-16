@@ -1,7 +1,9 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
+// Program to find the first non-repeating character in a string
 public class FirstNonRepeatingChar {
+    // Find and return the first character that appears only once
     public static char firstNonRepeating(String text) {
         int[] freq = new int[256];
         for (int i = 0; i < text.length(); i++) freq[text.charAt(i)]++;

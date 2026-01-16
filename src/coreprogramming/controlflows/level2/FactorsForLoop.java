@@ -1,6 +1,7 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
+// Finds and prints all factors of a given number using a for loop
 public class FactorsForLoop {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

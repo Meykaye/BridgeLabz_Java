@@ -1,7 +1,9 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
+// Converts between different length units: km/miles, meters/feet
 public class UnitConverterLength1 {
+    // Length conversions: km to miles, miles to km, meters to feet, feet to meters
     static double kmToMiles(double v){return v*0.621371;}
     static double milesToKm(double v){return v*1.60934;}
     static double metersToFeet(double v){return v*3.28084;}

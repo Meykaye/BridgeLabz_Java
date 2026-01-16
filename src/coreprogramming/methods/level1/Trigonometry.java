@@ -1,6 +1,7 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
+// Calculates trigonometric functions (sine, cosine, tangent) for a given angle
 public class Trigonometry {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class Trigonometry {
         sc.close();
     }
 
+    // Converts angle to radians and calculates sin, cos, tan values
     public static double[] calculateTrigonometricFunctions(double angle) {
         double radians = Math.toRadians(angle);
         double sin = Math.sin(radians);
