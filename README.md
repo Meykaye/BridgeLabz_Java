@@ -227,3 +227,15 @@
 
 * **Issues faced**:
   * None
+
+---
+### **16/01/2026**
+
+* **What I did**:
+  * Reformated github structure and other contents
+
+* **What I’ll do next**:
+  * Data Structures
+
+* **Issues faced**:
+  * None
