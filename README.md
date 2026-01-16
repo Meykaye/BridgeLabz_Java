@@ -1,1 +1,1 @@
-# BridgeLabz_Java_CG
+# BridgeLabz_Java
