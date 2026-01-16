@@ -1,7 +1,12 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
-// This class implements a number guessing game using binary search strategy
+/*
+ * This class implements an interactive number guessing game using binary search strategy.
+ * The computer generates a random number in a range and narrows down possibilities
+ * by using the user's feedback (higher/lower/correct). This demonstrates binary search
+ * algorithm, game logic, and interactive user input handling.
+ */
 public class NumberGuessingGame {
     static Scanner sc = new Scanner(System.in);
 

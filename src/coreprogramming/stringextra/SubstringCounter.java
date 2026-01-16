@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class counts how many times a substring appears in a given text
+/*
+ * SubstringCounter: Counts the number of times a substring appears in a given string.
+ * Uses sliding window technique to find all occurrences of the pattern and returns
+ * the total count of matching substrings.
+ */
 public class SubstringCounter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

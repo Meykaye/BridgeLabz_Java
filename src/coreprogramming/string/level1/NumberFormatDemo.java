@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to demonstrate NumberFormatException when parsing invalid numeric strings
+/*
+ * This program demonstrates NumberFormatException which occurs when attempting
+ * to parse a non-numeric string into a numeric type.
+ * It shows string-to-number conversion validation.
+ */
 public class NumberFormatDemo {
 
     // Attempt to parse non-numeric string to trigger exception

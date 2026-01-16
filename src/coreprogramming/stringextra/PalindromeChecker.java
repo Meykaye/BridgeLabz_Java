@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class checks if a string is a palindrome (reads the same forwards and backwards)
+/*
+ * PalindromeChecker: Verifies whether a given string reads the same forwards and
+ * backwards using the two-pointer technique. Ignores spaces and case sensitivity
+ * for comprehensive palindrome validation.
+ */
 public class PalindromeChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

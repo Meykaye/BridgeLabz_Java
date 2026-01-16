@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to create a table showing each word and its length
+/*
+ * WordLengthTable: Parses a sentence into individual words and creates a
+ * formatted table displaying each word alongside its calculated length.
+ * Uses custom length calculation via exception handling instead of built-in methods.
+ */
 public class WordLengthTable {
 
     // Find string length using exception handling

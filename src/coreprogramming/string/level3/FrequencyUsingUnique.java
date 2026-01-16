@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
-// Program to count character frequency by finding unique characters first
+/*
+ * FrequencyUsingUnique: Determines character frequency in a string by first
+ * extracting all unique characters and then counting their individual occurrences.
+ * Demonstrates an alternative approach to frequency analysis using unique character sets.
+ */
 public class FrequencyUsingUnique {
     // Extract unique characters from the string
     public static char[] findUniqueChars(String text) {

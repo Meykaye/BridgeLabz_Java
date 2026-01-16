@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class uses 2D array to store marks and calculates grades for students
+/*
+ * This class uses 2D arrays to store marks for multiple subjects across multiple students.
+ * It calculates total marks and percentage for each student, then assigns letter grades
+ * based on the computed percentage. This demonstrates 2D array manipulation for complex
+ * academic data organization and grading system implementation.
+ */
 public class StudentGrades2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

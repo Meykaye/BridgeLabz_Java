@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Calculates trigonometric functions (sine, cosine, tangent) for a given angle
+/*
+ * This class calculates trigonometric function values (sine, cosine, tangent)
+ * for a given angle in degrees. It demonstrates the use of Java's Math class
+ * for trigonometric calculations and angle conversion.
+ */
 public class Trigonometry {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

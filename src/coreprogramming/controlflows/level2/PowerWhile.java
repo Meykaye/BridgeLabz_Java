@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Calculates the power of a number (base^exponent) using a while loop
+/*
+ * This class calculates the power (exponentiation) of a base number raised to
+ * an exponent using a while loop with accumulated multiplication.
+ * This demonstrates iterative computation using while loop iteration.
+ */
 public class PowerWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

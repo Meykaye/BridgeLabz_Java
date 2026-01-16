@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Calculates BMI for 10 people and classifies them based on BMI value
+/*
+ * This class calculates Body Mass Index (BMI) for 10 people and classifies them
+ * based on BMI ranges (Underweight, Normal, Overweight, Obese).
+ * It demonstrates method-based computation and data classification.
+ */
 public class BMICalculator{
     // Calculates BMI: weight(kg) / (height(m))^2. Height is converted from cm to m
     static double bmi(double w,double h){

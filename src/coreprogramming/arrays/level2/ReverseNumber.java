@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class reverses a number by extracting and displaying digits in order
+/*
+ * This class reverses a number by extracting individual digits and displaying them
+ * in reverse order. It uses array storage and mathematical operations (modulo and division)
+ * to extract digits from right to left. This demonstrates number manipulation and
+ * array-based digit collection.
+ */
 public class ReverseNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Calculates how many complete rounds can be run in a 5000m distance around a triangular park
+/*
+ * This class calculates how many complete rounds around a triangular park can be
+ * completed within a fixed distance (5000m). It uses the perimeter of the triangle
+ * and demonstrates geometric calculations and distance-based iterations.
+ */
 public class TriangularParkRun {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

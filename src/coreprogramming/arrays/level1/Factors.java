@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class finds all factors of a given number using array resizing
+/*
+ * This class finds and displays all factors of a given positive number.
+ * It uses dynamic array resizing to store factors that are found by checking
+ * divisibility. Factors are numbers that divide evenly into the input number.
+ * This demonstrates array manipulation and mathematical algorithms.
+ */
 public class Factors {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

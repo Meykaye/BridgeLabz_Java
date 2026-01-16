@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Determines if a given year is a leap year following Gregorian calendar rules
+/*
+ * This class determines if a given year is a leap year following Gregorian calendar rules.
+ * A leap year is divisible by 4, except century years which must be divisible by 400.
+ * It demonstrates complex conditional logic for calendar calculations.
+ */
 public class LeapYear {
     // Leap year if divisible by 4, except century years unless divisible by 400
     static boolean isLeap(int y) {

@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Divides chocolates equally among children and calculates remaining chocolates
+/*
+ * This class divides a given quantity of chocolates equally among a specified number
+ * of children and calculates how many chocolates remain undistributed.
+ * It demonstrates integer division and modulo operations for distribution problems.
+ */
 public class ChocolateDistribution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

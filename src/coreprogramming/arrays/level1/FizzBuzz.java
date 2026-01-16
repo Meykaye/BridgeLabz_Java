@@ -1,7 +1,13 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class implements the classic FizzBuzz problem using arrays
+/*
+ * This class implements the FizzBuzz problem using arrays.
+ * For each number from 1 to n, it prints "Fizz" if divisible by 3,
+ * "Buzz" if divisible by 5, "FizzBuzz" if divisible by both, and the
+ * number itself otherwise. This classic problem teaches conditional logic
+ * and array manipulation.
+ */
 public class FizzBuzz {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

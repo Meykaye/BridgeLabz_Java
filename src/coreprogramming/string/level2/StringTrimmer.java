@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to compare custom string trim with built-in trim method
+/*
+ * StringTrimmer: Compares custom string trimming implementation with Java's
+ * built-in trim() method. Implements custom trim logic to remove leading and
+ * trailing whitespace by finding boundary indices and extracting the substring.
+ */
 public class StringTrimmer {
 
     // Find the start and end indices of non-whitespace characters

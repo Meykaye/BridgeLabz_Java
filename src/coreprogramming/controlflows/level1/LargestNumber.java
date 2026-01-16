@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Identifies which of three numbers is the largest
+/*
+ * This class identifies which of three given numbers is the largest.
+ * It compares all three numbers against each other using logical operators.
+ * This demonstrates conditional logic and the use of AND (&&) operators for comparison.
+ */
 public class LargestNumber {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

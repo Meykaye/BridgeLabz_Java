@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class calculates bonus for employees based on years of service
+/*
+ * This class calculates performance bonuses for employees based on their salary and
+ * years of service. It uses 2D arrays to store employee data (salary and years of service)
+ * and computes bonuses according to predefined criteria. This demonstrates 2D array
+ * processing and business logic implementation for employee compensation.
+ */
 public class ZaraBonus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

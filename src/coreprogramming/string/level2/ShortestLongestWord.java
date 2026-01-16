@@ -1,7 +1,12 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to find the shortest and longest words in a sentence
+/*
+ * ShortestLongestWord: Analyzes a user-provided sentence to identify and
+ * display the shortest and longest words. Uses custom string length calculation
+ * via exception handling instead of built-in methods and compares word lengths
+ * to determine extremes.
+ */
 public class ShortestLongestWord {
 
     // Find string length using exception handling

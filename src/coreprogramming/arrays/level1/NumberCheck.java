@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class checks if numbers are positive/negative and even/odd, then compares first and last
+/*
+ * This class analyzes an array of numbers and checks their properties.
+ * It determines if each number is positive/negative and even/odd.
+ * It also compares the first and last elements to find which is greater.
+ * This demonstrates array input, conditional logic, and comparisons.
+ */
 public class NumberCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

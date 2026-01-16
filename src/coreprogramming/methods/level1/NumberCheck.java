@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Checks if a number is positive (1), negative (-1), or zero (0)
+/*
+ * This class checks the sign of a number and returns a classification code:
+ * 1 for positive numbers, -1 for negative numbers, and 0 for zero.
+ * This demonstrates sign detection using conditional statements.
+ */
 public class NumberCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

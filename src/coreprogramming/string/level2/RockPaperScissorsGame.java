@@ -1,7 +1,12 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to simulate Rock-Paper-Scissors game between player and computer
+/*
+ * RockPaperScissorsGame: Implements an interactive game where a human player
+ * competes against the computer in multiple rounds of Rock-Paper-Scissors.
+ * Tracks wins, losses, and ties while providing an engaging user experience
+ * with proper game logic and winner determination.
+ */
 public class RockPaperScissorsGame {
     // Generate random choice for computer: rock, paper, or scissors
     static String computerChoice() {

@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.Scanner;
 
+/*
+ * This class calculates performance bonuses for employees based on their
+ * salary and years of service. It demonstrates human resources calculations
+ * and compensation structure implementation.
+ */
 public class EmployeeBonus {
 
     static double[][] generateSalaryYears(int n) {

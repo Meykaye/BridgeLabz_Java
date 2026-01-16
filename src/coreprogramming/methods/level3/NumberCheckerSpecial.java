@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class checks numbers for special mathematical properties including
+ * primality, perfect numbers, and other special number classifications.
+ * It demonstrates special number detection and mathematical properties.
+ */
 public class NumberCheckerSpecial {
     static boolean prime(int n) {
         if (n <= 1) return false;

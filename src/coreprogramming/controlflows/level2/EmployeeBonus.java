@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Calculates employee bonus based on years of service (5% of salary if tenure > 5 years)
+/*
+ * This class calculates employee bonuses based on years of service.
+ * Employees with more than 5 years of tenure receive a 5% bonus on their salary.
+ * This demonstrates conditional bonus calculation based on employment duration.
+ */
 public class EmployeeBonus {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

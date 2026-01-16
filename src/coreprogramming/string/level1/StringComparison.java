@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to compare custom string comparison with built-in equals method
+/*
+ * This program compares custom string comparison (using character-by-character
+ * iteration) with the built-in equals() method. It demonstrates string
+ * comparison techniques and validation.
+ */
 public class StringComparison {
 
     // Compare two strings character by character

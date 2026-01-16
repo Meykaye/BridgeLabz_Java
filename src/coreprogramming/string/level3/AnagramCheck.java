@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
-// Program to check if two strings are anagrams using character frequency
+/*
+ * AnagramCheck: Determines whether two input strings are anagrams by comparing
+ * their character frequency distributions. Uses frequency arrays to count each
+ * character occurrence and validates that both strings contain identical character counts.
+ */
 public class AnagramCheck {
     // Check if two strings are anagrams by comparing character frequencies
     public static boolean areAnagrams(String a, String b) {

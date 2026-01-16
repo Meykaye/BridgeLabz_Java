@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class generates multiplication table for a number from 6 to 9
+/*
+ * This class generates multiplication tables for a given number using
+ * multipliers 6 through 9. Results are stored in an array and displayed.
+ * This demonstrates array-based computation and multiple iterations with
+ * dynamic multiplier values.
+ */
 public class TableSixToNine {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

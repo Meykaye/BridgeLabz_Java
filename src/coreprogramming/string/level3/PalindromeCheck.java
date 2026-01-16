@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
-// Program to check if a string is a palindrome using multiple approaches
+/*
+ * PalindromeCheck: Validates whether a given string reads identically forwards
+ * and backwards using multiple algorithmic approaches including two-pointer loop
+ * method and recursive implementations.
+ */
 public class PalindromeCheck {
     // Check palindrome using two-pointer approach with loop
     public static boolean isPalindromeLoop(String s) {

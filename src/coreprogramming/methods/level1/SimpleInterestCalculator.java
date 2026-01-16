@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Calculates simple interest using formula: (Principal * Rate * Time) / 100
+/*
+ * This class calculates simple interest using the financial formula:
+ * Interest = (Principal * Rate * Time) / 100. It demonstrates financial
+ * computation and the application of mathematical formulas in programming.
+ */
 public class SimpleInterestCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

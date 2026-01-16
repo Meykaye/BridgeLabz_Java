@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to find string length without using built-in length() method
+/*
+ * StringLengthFinder: Calculates the length of a string without using the
+ * built-in length() method. Uses a custom approach by attempting to access
+ * characters sequentially until an exception occurs, indicating the string end.
+ */
 public class StringLengthFinder {
 
     // Find length by attempting charAt until exception is caught

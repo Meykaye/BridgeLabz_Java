@@ -1,6 +1,10 @@
 package coreprogramming.methods.level1;
 
-// Checks if a given month and day fall within the spring season (March 20 - June 20)
+/*
+ * This class checks whether a given month and day fall within the spring season.
+ * Spring is defined as March 20 through June 20 in the Gregorian calendar.
+ * It demonstrates date range checking and conditional logic for seasonal classification.
+ */
 public class SpringSeason {
     public static void main(String[] args) {
         int month = Integer.parseInt(args[0]);

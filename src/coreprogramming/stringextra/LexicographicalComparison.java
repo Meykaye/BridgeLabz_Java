@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class compares two strings lexicographically to determine their order
+/*
+ * LexicographicalComparison: Compares two strings in lexicographical (dictionary) order
+ * using character-by-character comparison. Returns -1 if first string comes before,
+ * 0 if strings are equal, or 1 if first string comes after the second.
+ */
 public class LexicographicalComparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

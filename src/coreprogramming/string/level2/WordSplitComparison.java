@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to compare custom word splitting with built-in split method
+/*
+ * WordSplitComparison: Implements custom word splitting logic and compares it
+ * with Java's built-in split() method. Demonstrates character-by-character
+ * parsing to extract words from a sentence without relying on built-in utilities.
+ */
 public class WordSplitComparison {
 
     // Find string length by attempting to access each character until exception

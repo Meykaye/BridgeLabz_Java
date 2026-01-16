@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Determines if a given year is a leap year using a single conditional expression
+/*
+ * This class determines if a given year is a leap year using a single
+ * concise conditional expression rather than multiple if statements.
+ * It demonstrates condensed logic for leap year determination.
+ */
 class LeapYearSingleCondition {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

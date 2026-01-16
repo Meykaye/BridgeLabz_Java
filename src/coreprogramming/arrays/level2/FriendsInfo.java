@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class finds the youngest and tallest friend from three friends
+/*
+ * This class analyzes information about three predefined friends (Amar, Akbar, Anthony).
+ * It reads their ages and heights, then identifies the youngest friend and the tallest
+ * friend by comparing values stored in separate arrays. This demonstrates array comparison
+ * and selection of extremal values (minimum and maximum).
+ */
 public class FriendsInfo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

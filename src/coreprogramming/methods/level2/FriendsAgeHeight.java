@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Finds the youngest person and the tallest person among 3 friends
+/*
+ * This class finds the youngest person and the tallest person among
+ * a group of three friends by comparing their ages and heights.
+ * It demonstrates array-based comparisons and extremal value identification.
+ */
 public class FriendsAgeHeight {
     // Finds minimum age among friends
     static int youngest(int[] a) {

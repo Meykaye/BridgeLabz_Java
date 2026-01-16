@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class calculates student percentage and assigns grades based on subject marks
+/*
+ * This class calculates academic grades for students based on marks in multiple subjects.
+ * It reads marks for each student, computes percentage, and assigns letter grades (A, B, C, D, F)
+ * based on percentage ranges. This demonstrates array usage for storing student data and
+ * implementing grading logic.
+ */
 public class StudentGrades {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

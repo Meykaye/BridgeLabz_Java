@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Converts between: yards/feet, meters/inches, inches/cm
+/*
+ * This class provides methods to convert between different length units:
+ * yards/feet, meters/inches, and inches/centimeters.
+ * It demonstrates varied unit conversion formulas and conversions.
+ */
 public class UnitConverterLength2 {
     // Length conversions: yards/feet, meters/inches, inches/cm
     static double yardsToFeet(double v){return v*3;}

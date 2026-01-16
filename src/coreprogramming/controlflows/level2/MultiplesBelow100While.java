@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Prints all multiples of a given number that are below 100 using a while loop
+/*
+ * This class prints all multiples of a given number that are less than 100
+ * using a while loop with increment steps equal to the number.
+ * This demonstrates efficient multiple finding using while loop iteration.
+ */
 public class MultiplesBelow100While {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

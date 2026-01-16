@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class analyzes numbers by finding all their factors and computing
+ * related statistics such as sum and product of factors.
+ * It demonstrates comprehensive factor analysis and number decomposition.
+ */
 public class NumberCheckerFactors {
     static int[] factors(int n) {
         int c = 0;

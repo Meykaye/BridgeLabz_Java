@@ -1,7 +1,12 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to create a table showing character types (vowel, consonant, or other)
+/*
+ * CharacterTypeTable: Analyzes and displays a table showing the character type
+ * classification (vowel, consonant, or other) for each character in user input.
+ * Uses a helper method to identify vowels and consonants while ignoring
+ * non-alphabetic characters.
+ */
 public class CharacterTypeTable {
 
     // Identify character type: Vowel, Consonant, or Not a Letter

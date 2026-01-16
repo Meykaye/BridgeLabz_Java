@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to compare custom substring implementation with built-in substring method
+/*
+ * This program compares custom substring implementation (iterating through
+ * characters) with the built-in substring() method. It demonstrates substring
+ * extraction and string manipulation techniques.
+ */
 public class SubstringCreation {
 
     // Create a substring manually by iterating through characters from start to end index

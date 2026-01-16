@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.*;
 
-// Utility program to display calendar for a given month and year
+/*
+ * CalendarUtils: Provides utility functions for calendar operations including
+ * displaying month calendars for any given month and year. Handles leap year
+ * calculations and generates properly formatted calendar grids.
+ */
 public class CalendarUtils {
     // Get month name from month number
     public static String getMonthName(int month){

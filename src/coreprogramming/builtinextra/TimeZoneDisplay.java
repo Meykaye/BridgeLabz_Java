@@ -2,7 +2,12 @@ package coreprogramming.builtinextra;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-// This class displays current time in different time zones
+/*
+ * This class displays the current date and time in multiple time zones.
+ * It uses Java's ZonedDateTime and ZoneId APIs to handle time zone conversions.
+ * This demonstrates working with different time zones and understanding timezone-aware
+ * date/time operations in global applications.
+ */
 public class TimeZoneDisplay {
     public static void main(String[] args) {
         // Get current time in different time zones

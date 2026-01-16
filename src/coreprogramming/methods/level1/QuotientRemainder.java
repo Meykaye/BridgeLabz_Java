@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Finds the quotient and remainder when dividing a number by a divisor
+/*
+ * This class finds and displays the quotient and remainder when performing
+ * integer division of a number by a divisor. It demonstrates the / and % operators
+ * which are fundamental to division and remainder operations.
+ */
 public class QuotientRemainder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

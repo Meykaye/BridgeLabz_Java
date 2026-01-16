@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class counts the number of vowels and consonants in a string
+/*
+ * VowelConsonantCounter: Counts and categorizes vowels and consonants in a string
+ * while handling both uppercase and lowercase letters. Ignores non-alphabetic
+ * characters and provides separate counts for each category.
+ */
 public class VowelConsonantCounter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

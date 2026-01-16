@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Calculates wind chill factor based on temperature and wind speed
+/*
+ * This class calculates the wind chill factor, which represents how cold air feels
+ * when combined with wind speed. It demonstrates practical meteorological calculations
+ * and the formula: windChill = 35.74 + 0.6215*temp - 35.75*(speed^0.16) + 0.4275*temp*(speed^0.16)
+ */
 public class WindChill {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

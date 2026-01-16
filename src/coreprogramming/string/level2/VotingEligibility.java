@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to check voting eligibility for random ages
+/*
+ * VotingEligibility: Generates random ages for a set of people and determines
+ * their voting eligibility based on age requirements. Displays each person's
+ * age and eligibility status in a formatted table.
+ */
 public class VotingEligibility {
 
     // Generate random ages for testing

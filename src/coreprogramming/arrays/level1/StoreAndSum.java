@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class stores positive numbers and calculates their sum
+/*
+ * This class reads positive numbers from user input, stores them in an array,
+ * and calculates their sum. It filters out non-positive numbers and only
+ * accumulates the sum of valid positive values. This demonstrates input
+ * validation, array storage, and accumulation logic.
+ */
 public class StoreAndSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Analyzes factors of a number: finds all factors, sum, product, and sum of squares
+/*
+ * This class analyzes factors of a number by computing all factors,
+ * their sum, their product, and the sum of their squares.
+ * It demonstrates comprehensive factor analysis and multiple computations.
+ */
 public class FactorsProgram {
     // Finds all factors of n and returns them in an array
     static int[] findFactors(int n) {

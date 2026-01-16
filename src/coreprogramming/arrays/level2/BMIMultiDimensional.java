@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class calculates BMI using 2D arrays and categorizes health status
+/*
+ * This class calculates Body Mass Index (BMI) using 2D arrays to store
+ * weight and height data for multiple people. It demonstrates 2D array usage,
+ * BMI computation, and health status categorization based on BMI ranges.
+ * This teaches multi-dimensional array manipulation for complex data organization.
+ */
 public class BMIMultiDimensional {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

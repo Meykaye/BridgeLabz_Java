@@ -2,6 +2,11 @@ package coreprogramming.methods.level3;
 
 import java.util.Scanner;
 
+/*
+ * This class manages student academic performance by tracking marks
+ * across multiple subjects and calculating aggregate statistics.
+ * It demonstrates academic data management and grade computation.
+ */
 public class StudentMarks {
 
     static int[][] generateMarks(int n) {

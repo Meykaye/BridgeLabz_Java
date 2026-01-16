@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class separates numbers from 1 to n into odd and even arrays
+/*
+ * This class separates numbers from 1 to n into two distinct arrays:
+ * one containing odd numbers and another containing even numbers.
+ * It demonstrates array creation, conditional logic, and array population
+ * based on mathematical properties.
+ */
 public class OddEvenArrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

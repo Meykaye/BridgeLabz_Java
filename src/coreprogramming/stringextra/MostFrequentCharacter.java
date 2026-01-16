@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class finds the most frequently occurring character in a string
+/*
+ * MostFrequentCharacter: Determines the character that appears most frequently in a
+ * given string using frequency counting. Tracks character occurrences and identifies
+ * the character with the highest count value.
+ */
 public class MostFrequentCharacter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

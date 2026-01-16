@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Solves quadratic equations (ax^2 + bx + c = 0) and returns real roots
+/*
+ * This class solves quadratic equations of the form ax² + bx + c = 0
+ * using the quadratic formula and discriminant analysis.
+ * It handles cases with 2 real roots, 1 repeated root, or complex roots.
+ */
 public class QuadraticEquation {
     // Calculates discriminant and returns roots using quadratic formula
     // Returns 2 roots if discriminant > 0, 1 root if discriminant == 0, no roots if < 0

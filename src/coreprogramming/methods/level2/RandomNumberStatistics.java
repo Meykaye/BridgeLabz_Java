@@ -1,6 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
+/*
+ * This class generates random numbers and computes their statistics
+ * including minimum, maximum, and average values.
+ * It demonstrates random number generation and statistical analysis.
+ */
 public class RandomNumberStatistics {
     static int[] generate(int n){
         int[] a=new int[n];

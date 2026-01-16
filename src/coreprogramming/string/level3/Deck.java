@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.*;
 
-// Program to create and shuffle a deck of cards, then distribute to players
+/*
+ * Deck: Creates a standard 52-card deck with four suits and thirteen ranks,
+ * implements shuffle functionality to randomize card order, and distributes
+ * cards to multiple players. Supports game simulation and card dealing operations.
+ */
 public class Deck {
     // Create a standard deck of 52 playing cards (4 suits × 13 ranks)
     public static String[] initializeDeck(){

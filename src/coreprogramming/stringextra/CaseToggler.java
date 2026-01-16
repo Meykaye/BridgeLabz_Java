@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class toggles case of all letters in a string (uppercase to lowercase and vice versa)
+/*
+ * CaseToggler: Toggles the case of each character in a string, converting uppercase
+ * letters to lowercase and lowercase letters to uppercase. Preserves non-alphabetic
+ * characters unchanged while processing the entire string.
+ */
 public class CaseToggler {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

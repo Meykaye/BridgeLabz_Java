@@ -1,7 +1,12 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Checks if a number is abundant (sum of divisors excluding itself exceeds the number)
+/*
+ * This class checks if a number is an abundant number.
+ * An abundant number is one where the sum of its proper divisors (all divisors except
+ * the number itself) exceeds the number. This demonstrates divisor calculation and
+ * special number classification.
+ */
 class AbundantNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

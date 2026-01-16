@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Calculates total number of unique handshakes among n students using combination formula
+/*
+ * This class calculates the total number of unique handshakes among n students
+ * using the combination formula C(n, 2) = n * (n - 1) / 2.
+ * Each pair of students shakes hands exactly once.
+ */
 public class Handshakes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class manages football team statistics including player counts,
+ * field position tracking, and team performance metrics.
+ * It demonstrates sports data management and aggregation techniques.
+ */
 public class FootballTeam {
     static int sum(int[] a) {
         int s = 0;

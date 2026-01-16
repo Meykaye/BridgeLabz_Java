@@ -1,7 +1,12 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
-// This class generates and prints the first n Fibonacci numbers
+/*
+ * This class generates and displays the Fibonacci series up to n terms.
+ * The Fibonacci sequence is a series where each number is the sum of the two
+ * preceding ones (0, 1, 1, 2, 3, 5, ...). This demonstrates iterative sequence
+ * generation and mathematical computation patterns.
+ */
 public class FibonacciGenerator {
     // Generate Fibonacci series up to n terms
     static void printFibonacci(int n) {

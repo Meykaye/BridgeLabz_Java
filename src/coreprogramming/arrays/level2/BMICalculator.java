@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class calculates BMI for multiple people and categorizes them
+/*
+ * This class calculates Body Mass Index (BMI) for multiple people and categorizes
+ * them based on their BMI values. It stores weight and height in separate arrays,
+ * computes BMI using the formula weight/(height*height), and assigns health status
+ * categories (Underweight, Normal, Overweight, Obese) accordingly.
+ */
 public class BMICalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

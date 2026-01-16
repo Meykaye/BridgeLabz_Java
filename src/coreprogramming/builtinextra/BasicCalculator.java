@@ -1,7 +1,12 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
-// This class performs basic arithmetic operations (add, subtract, multiply, divide)
+/*
+ * This class implements a basic calculator that performs fundamental arithmetic
+ * operations including addition, subtraction, multiplication, and division.
+ * Each operation is implemented as a separate helper method for modularity
+ * and reusability. This demonstrates method creation and arithmetic computation.
+ */
 public class BasicCalculator {
     // Helper method for addition
     static double add(double a, double b) { return a + b; }

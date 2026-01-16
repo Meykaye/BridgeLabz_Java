@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Checks if the first number is the smallest among three numbers
+/*
+ * This class checks whether the first of three numbers is the smallest among them.
+ * It uses logical AND operators to compare the first number with the other two.
+ * This demonstrates boolean logic and multiple comparisons in conditional expressions.
+ */
 public class SmallestFirst {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

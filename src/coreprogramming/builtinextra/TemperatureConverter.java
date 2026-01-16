@@ -1,7 +1,12 @@
 package coreprogramming.builtinextra;
 import java.util.Scanner;
 
-// This class converts temperatures between Celsius and Fahrenheit
+/*
+ * This class converts temperatures between Celsius and Fahrenheit scales.
+ * It implements the mathematical formulas: C to F: (C * 9/5) + 32 and
+ * F to C: (F - 32) * 5/9. This demonstrates temperature conversion logic
+ * and practical use of mathematical formulas in programming.
+ */
 public class TemperatureConverter {
     // Convert Celsius to Fahrenheit using formula: (C * 9/5) + 32
     static double celsiusToFahrenheit(double c) {

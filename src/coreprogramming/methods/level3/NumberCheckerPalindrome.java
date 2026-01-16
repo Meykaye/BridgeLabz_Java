@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class checks whether a number is a palindrome by extracting
+ * its digits and comparing them in reverse order.
+ * It demonstrates palindrome detection and digit manipulation techniques.
+ */
 public class NumberCheckerPalindrome {
     static int[] digits(int n) {
         String s = String.valueOf(n);

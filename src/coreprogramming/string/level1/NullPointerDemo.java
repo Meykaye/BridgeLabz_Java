@@ -1,6 +1,10 @@
 package coreprogramming.string.level1;
 
-// Program to demonstrate NullPointerException when calling methods on null reference
+/*
+ * This program demonstrates NullPointerException which occurs when attempting
+ * to call methods or access properties on a null reference.
+ * It shows proper exception handling for null checks.
+ */
 public class NullPointerDemo {
 
     // Attempt to call method on null reference to trigger exception

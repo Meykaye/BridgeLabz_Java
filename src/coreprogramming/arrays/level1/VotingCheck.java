@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class checks voting eligibility for 10 students based on their ages
+/*
+ * This class determines voting eligibility for 10 students based on their ages.
+ * Students aged 18 and above are eligible to vote. It demonstrates age
+ * validation, conditional checks, and array-based population analysis using
+ * standard voting eligibility criteria.
+ */
 public class VotingCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

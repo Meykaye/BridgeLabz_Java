@@ -2,7 +2,11 @@ package coreprogramming.builtinextra;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-// This class performs arithmetic operations on dates (add/subtract days, months, years)
+/*
+ * This class demonstrates arithmetic operations on dates using Java's LocalDate API.
+ * It allows adding or subtracting days, months, and years from a given date.
+ * This teaches date manipulation using built-in Java date/time libraries.
+ */
 public class DateArithmetic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

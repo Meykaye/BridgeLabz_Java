@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Calculates the factorial of a number using a while loop
+/*
+ * This class calculates the factorial of a number using a while loop.
+ * Factorial is the product of all positive integers from 1 to n.
+ * This demonstrates while loop usage for accumulative multiplication and factorial computation.
+ */
 public class FactorialWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

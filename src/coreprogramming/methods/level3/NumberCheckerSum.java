@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class extracts digits from numbers and computes their sum.
+ * It demonstrates digit extraction and accumulation techniques for
+ * number analysis and digit sum calculations.
+ */
 public class NumberCheckerSum {
     static int[] digits(int n) {
         String s = String.valueOf(n);

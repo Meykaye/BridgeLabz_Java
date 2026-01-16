@@ -1,7 +1,10 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Prints the multiplication table for a number from 6 to 9
+/*
+ * This class prints the multiplication table for a given number using multipliers 6 through 9.
+ * It demonstrates loop-based table generation with specific iteration range.
+ */
 public class MultiplicationTable {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

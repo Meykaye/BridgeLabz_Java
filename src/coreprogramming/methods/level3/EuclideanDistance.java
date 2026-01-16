@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.Scanner;
 
+/*
+ * This class calculates the Euclidean distance between two points in 2D space.
+ * Using the distance formula: distance = sqrt((x2-x1)² + (y2-y1)²).
+ * This demonstrates geometric calculations and coordinate geometry applications.
+ */
 public class EuclideanDistance {
 
     static double distance(double x1, double y1, double x2, double y2) {

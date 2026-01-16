@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class finds the largest and second-largest digits with fixed array size
+/*
+ * This class finds the largest and second-largest digits in a number using
+ * a fixed-size array. It extracts digits from the input number and uses sorting
+ * or comparison logic to identify the top two digits by value.
+ * This demonstrates digit manipulation and array-based value tracking.
+ */
 public class LargestSecondLargest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

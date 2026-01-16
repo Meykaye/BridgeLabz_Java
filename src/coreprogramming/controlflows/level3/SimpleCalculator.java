@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Performs basic arithmetic operations (+, -, *, /) based on user input
+/*
+ * This class implements a simple calculator that performs basic arithmetic operations
+ * (addition, subtraction, multiplication, and division) based on user-selected operations.
+ * It demonstrates operator selection and conditional execution of different computations.
+ */
 class SimpleCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

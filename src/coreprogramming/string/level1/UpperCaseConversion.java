@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to compare custom uppercase conversion with built-in toUpperCase method
+/*
+ * This program compares custom uppercase conversion (using ASCII values)
+ * with the built-in toUpperCase() method. It demonstrates character
+ * manipulation and built-in string processing methods.
+ */
 public class UpperCaseConversion {
 
     // Convert each lowercase letter to uppercase by subtracting 32 from ASCII value

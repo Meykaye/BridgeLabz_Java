@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to demonstrate StringIndexOutOfBoundsException and exception handling
+/*
+ * This program demonstrates StringIndexOutOfBoundsException which occurs
+ * when attempting to access a character at an invalid index in a string.
+ * It shows proper exception handling for string access operations.
+ */
 public class StringIndexOutOfBoundsDemo {
 
     // Attempt to access character at invalid index to trigger exception

@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class generates One-Time Passwords (OTP) and validates their
+ * uniqueness. It creates random 6-digit codes for security applications.
+ * This demonstrates random number generation and uniqueness validation.
+ */
 public class OtpGenerator {
     static int generate() {
         return (int)(Math.random() * 900000) + 100000;

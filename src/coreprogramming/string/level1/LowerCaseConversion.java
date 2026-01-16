@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to compare custom lowercase conversion with built-in toLowerCase method
+/*
+ * This program compares custom lowercase conversion (using ASCII values)
+ * with the built-in toLowerCase() method. It demonstrates character
+ * manipulation and built-in string processing methods.
+ */
 public class LowerCaseConversion {
 
     // Convert each uppercase letter to lowercase by adding 32 to ASCII value

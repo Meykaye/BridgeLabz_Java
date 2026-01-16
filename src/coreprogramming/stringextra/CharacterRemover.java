@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class removes all occurrences of a specified character from a string
+/*
+ * CharacterRemover: Removes all occurrences of a specified character from a string.
+ * Iterates through the string and reconstructs it by excluding the target character
+ * while preserving all other characters in their original order.
+ */
 public class CharacterRemover {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

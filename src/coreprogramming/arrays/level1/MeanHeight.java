@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class calculates the mean (average) height of 11 students
+/*
+ * This class calculates the mean (average) height of 11 students.
+ * It reads heights from user input, sums them up, and divides by the count
+ * to calculate the average. This demonstrates basic statistical calculation
+ * and array traversal techniques.
+ */
 public class MeanHeight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

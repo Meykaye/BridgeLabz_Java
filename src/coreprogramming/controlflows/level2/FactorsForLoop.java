@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Finds and prints all factors of a given number using a for loop
+/*
+ * This class finds and displays all factors of a given number using a for loop.
+ * Factors are numbers that divide evenly into the input number with no remainder.
+ * This demonstrates factor computation using loop-based divisibility testing.
+ */
 public class FactorsForLoop {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

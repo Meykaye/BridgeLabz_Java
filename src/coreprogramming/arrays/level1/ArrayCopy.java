@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class copies a 2D matrix into a 1D array
+/*
+ * This class demonstrates matrix to array conversion.
+ * It reads a 2D matrix (2D array) and copies all its elements sequentially
+ * into a 1D array in row-major order. This is useful for understanding
+ * how multi-dimensional arrays can be flattened into single-dimensional arrays.
+ */
 public class ArrayCopy {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

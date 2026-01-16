@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
-// Program to count frequency of each character in a string
+/*
+ * FrequencyChar: Analyzes a string to determine the frequency of each unique
+ * character and returns results as a two-dimensional array containing characters
+ * and their occurrence counts in the original string.
+ */
 public class FrequencyChar {
     // Build frequency table of all characters in the string
     public static String[][] frequency(String text) {

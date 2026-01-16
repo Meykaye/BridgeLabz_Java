@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.Scanner;
 
-// Program to find all unique characters in a string
+/*
+ * UniqueCharacters: Identifies and extracts all unique characters from a given
+ * string while preserving their order of first appearance. Uses custom length
+ * calculation and character comparison to eliminate duplicates.
+ */
 public class UniqueCharacters {
     // Find string length without using built-in length() method
     public static int lengthWithoutLength(String s) {

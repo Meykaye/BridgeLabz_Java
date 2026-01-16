@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to demonstrate ArrayIndexOutOfBoundsException and how to handle it
+/*
+ * This program demonstrates ArrayIndexOutOfBoundsException and how to handle it.
+ * ArrayIndexOutOfBoundsException is thrown when attempting to access an array
+ * element at an invalid index (outside the array bounds).
+ */
 public class ArrayIndexOutOfBoundsDemo {
 
     // Attempt to access array element at invalid index

@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class removes duplicate characters and keeps only the first occurrence of each
+/*
+ * DuplicateRemover: Eliminates all duplicate characters from a string, keeping only
+ * the first occurrence of each character. Uses character comparison to identify and
+ * filter out redundant characters while maintaining original sequence.
+ */
 public class DuplicateRemover {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

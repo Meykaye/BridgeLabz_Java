@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Counts the total number of digits in a given number
+/*
+ * This class counts the total number of digits in a given number.
+ * It handles both positive and negative numbers by working with absolute values.
+ * This demonstrates digit extraction and counting techniques through iterative division.
+ */
 class DigitCounter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

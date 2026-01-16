@@ -1,7 +1,11 @@
 package coreprogramming.string.level2;
 import java.util.Scanner;
 
-// Program to count vowels and consonants in a string
+/*
+ * VowelConsonantCounter: Analyzes user input to count and display the total
+ * number of vowels and consonants in a given string. Handles both uppercase
+ * and lowercase letters while ignoring non-alphabetic characters.
+ */
 public class VowelConsonantCounter {
 
     // Check if character is vowel (1), consonant (2), or neither (0)

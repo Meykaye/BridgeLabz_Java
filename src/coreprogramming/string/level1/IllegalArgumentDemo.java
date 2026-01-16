@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// Program to demonstrate IllegalArgumentException when substring indices are invalid
+/*
+ * This program demonstrates IllegalArgumentException when substring indices
+ * are invalid (e.g., start index greater than end index).
+ * It shows proper exception handling and validation techniques.
+ */
 public class IllegalArgumentDemo {
 
     // Attempt to create substring with invalid indices (start > end)

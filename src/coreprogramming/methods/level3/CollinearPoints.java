@@ -1,6 +1,12 @@
 package coreprogramming.methods.level3;
 import java.util.Scanner;
 
+/*
+ * This class determines whether three points in 2D space are collinear
+ * (lie on the same line). It uses slope calculation and comparison methods
+ * to detect collinearity. This demonstrates geometric algorithms and
+ * coordinate geometry computations.
+ */
 public class CollinearPoints {
 
     static boolean collinearSlope(double x1, double y1, double x2, double y2, double x3, double y3) {

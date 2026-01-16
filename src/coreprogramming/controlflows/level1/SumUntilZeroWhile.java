@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Accumulates sum of positive numbers until user enters non-positive value
+/*
+ * This class accumulates the sum of positive numbers entered by the user until
+ * a non-positive value is entered. It uses a while loop with conditional break.
+ * This demonstrates bounded input validation and accumulation patterns.
+ */
 public class SumUntilZeroWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

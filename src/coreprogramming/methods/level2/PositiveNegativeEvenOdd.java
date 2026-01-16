@@ -1,7 +1,11 @@
 package coreprogramming.methods.level2;
 import java.util.*;
 
-// Tests numbers for properties: positive/negative, even/odd, and compares two numbers
+/*
+ * This class provides utility methods to test numbers for various properties:
+ * whether they are positive/negative, even/odd, and for comparing pairs of numbers.
+ * It demonstrates predicate methods and property testing.
+ */
 public class PositiveNegativeEvenOdd {
     // Checks if number is non-negative (positive or zero)
     static boolean positive(int n){return n>=0;}

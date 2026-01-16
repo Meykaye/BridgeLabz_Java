@@ -1,7 +1,11 @@
 package coreprogramming.stringextra;
 import java.util.Scanner;
 
-// This class reverses a string by reading characters in opposite order
+/*
+ * StringReverser: Reverses the order of characters in a string using both iterative
+ * and recursive approaches. Demonstrates character-by-character manipulation to
+ * reconstruct strings in reverse sequence.
+ */
 public class StringReverser {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

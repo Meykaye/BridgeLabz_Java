@@ -1,6 +1,10 @@
 package coreprogramming.string.level2;
 
-// Program to generate student scores and calculate statistics (total, average, percentage, grade)
+/*
+ * StudentScoreCard: Generates random test scores for multiple students across
+ * three subjects and calculates comprehensive statistics including total scores,
+ * averages, percentages, and letter grades. Displays results in a formatted table.
+ */
 public class StudentScoreCard {
 
     // Generate random scores for students across three subjects

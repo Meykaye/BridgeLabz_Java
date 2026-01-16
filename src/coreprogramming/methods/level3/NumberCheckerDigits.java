@@ -1,6 +1,11 @@
 package coreprogramming.methods.level3;
 import java.util.Scanner;
 
+/*
+ * This class extracts and analyzes individual digits from numbers.
+ * It converts numbers to strings to access individual digits and provides
+ * utilities for digit manipulation and analysis.
+ */
 public class NumberCheckerDigits {
 
     static int[] digits(int n) {

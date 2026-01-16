@@ -2,6 +2,11 @@ package coreprogramming.methods.level3;
 
 import java.util.Scanner;
 
+/*
+ * This class performs various operations on matrices including creation,
+ * manipulation, and computation. It implements fundamental matrix algorithms
+ * such as transposition, element access, and other 2D array operations.
+ */
 public class MatrixOperations {
 
     static int[][] createMatrix(int r, int c) {

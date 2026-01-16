@@ -1,6 +1,12 @@
 package coreprogramming.methods.level3;
 import java.util.*;
 
+/*
+ * This class displays a calendar for a given month and year.
+ * It calculates leap years, determines the first day of the month,
+ * and formats the calendar display. This demonstrates calendar algorithms
+ * and date manipulation.
+ */
 public class CalendarMonth {
     static boolean leap(int y) {
         return (y % 4 == 0 && y % 100 != 0) || y % 400 == 0;

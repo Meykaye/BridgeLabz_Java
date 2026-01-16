@@ -2,7 +2,12 @@ package coreprogramming.builtinextra;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-// This class demonstrates different date formatting styles
+/*
+ * This class demonstrates various date formatting styles using DateTimeFormatter.
+ * It shows how to format dates in multiple patterns such as ISO format, custom
+ * patterns, and localized formats. This teaches date formatting and string conversion
+ * using Java's date/time API.
+ */
 public class DateFormatting {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();

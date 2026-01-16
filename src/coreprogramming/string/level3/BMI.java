@@ -1,7 +1,11 @@
 package coreprogramming.string.level3;
 import java.util.*;
 
-// Program to calculate BMI (Body Mass Index) and determine health status
+/*
+ * BMI: Calculates Body Mass Index for multiple individuals and classifies their
+ * health status as Underweight, Normal, Overweight, or Obese based on BMI ranges.
+ * Processes weight and height data to compute accurate health assessments.
+ */
 public class BMI {
     // Calculate BMI for each person and determine health status (Underweight, Normal, Overweight, Obese)
     public static String[][] calculateBMI(double[][] data){

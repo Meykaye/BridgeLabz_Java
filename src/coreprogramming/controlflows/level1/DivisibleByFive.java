@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Checks if a given number is divisible by 5
+/*
+ * This class checks whether a given number is divisible by 5.
+ * It uses the modulo operator (%) to determine divisibility and displays
+ * an appropriate message. This demonstrates conditional logic and the ternary operator.
+ */
 public class DivisibleByFive {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

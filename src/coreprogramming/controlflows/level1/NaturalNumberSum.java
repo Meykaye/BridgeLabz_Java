@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level1;
 import java.util.Scanner;
 
-// Calculates the sum of first n natural numbers using the formula: n*(n+1)/2
+/*
+ * This class calculates the sum of the first n natural numbers (1, 2, 3, ..., n)
+ * using the mathematical formula: sum = n * (n + 1) / 2.
+ * This demonstrates formula-based calculation and conditional validation.
+ */
 public class NaturalNumberSum {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

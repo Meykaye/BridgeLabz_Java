@@ -1,7 +1,11 @@
 package coreprogramming.string.level1;
 import java.util.Scanner;
 
-// This class converts string to character array and compares with built-in method
+/*
+ * This class converts a string to a character array both manually and using
+ * built-in methods, then compares the results to verify correctness.
+ * It demonstrates string-to-character conversion techniques.
+ */
 public class CharacterArrayComparison {
 
     // Convert string to character array manually

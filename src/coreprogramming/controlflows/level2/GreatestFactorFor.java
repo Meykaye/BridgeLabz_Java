@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Finds the greatest factor of a number (excluding the number itself) using a for loop
+/*
+ * This class finds the greatest proper factor of a number (the largest factor
+ * excluding the number itself) using a for loop with backward iteration.
+ * This demonstrates factor identification and optimal iteration strategies.
+ */
 public class GreatestFactorFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

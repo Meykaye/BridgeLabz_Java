@@ -1,7 +1,11 @@
 package coreprogramming.methods.level1;
 import java.util.*;
 
-// Finds the smallest and largest among three given numbers
+/*
+ * This class finds and displays the smallest and largest values among three
+ * given numbers. It demonstrates value comparison and identification of extremal
+ * values using methods and conditional statements.
+ */
 public class SmallestLargest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

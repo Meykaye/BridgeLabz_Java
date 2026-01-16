@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level1;
 import java.util.Scanner;
 
-// This class generates and displays the multiplication table of a number (1-10)
+/*
+ * This class generates and displays the multiplication table of a given number.
+ * It stores the multiplication results (from multiplier 1 to 10) in an array
+ * and prints them. This demonstrates array initialization and basic arithmetic
+ * operations in sequence.
+ */
 public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

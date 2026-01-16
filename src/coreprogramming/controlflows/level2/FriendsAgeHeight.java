@@ -1,7 +1,11 @@
 package coreprogramming.controlflows.level2;
 import java.util.Scanner;
 
-// Finds the youngest friend's age and the tallest friend's height among three friends
+/*
+ * This class finds the youngest friend's age and the tallest friend's height
+ * among three predefined friends (Amar, Akbar, Anthony).
+ * This demonstrates value comparison and identification of extremal values.
+ */
 public class FriendsAgeHeight {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

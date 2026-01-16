@@ -1,7 +1,12 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Checks if a number is an Armstrong number (sum of cubes of digits equals the number)
+/*
+ * This class checks if a number is an Armstrong number (also called narcissistic number).
+ * An Armstrong number is a 3-digit number where the sum of cubes of its digits equals
+ * the number itself (e.g., 153 = 1³ + 5³ + 3³). This demonstrates digit extraction and
+ * special number classification.
+ */
 class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

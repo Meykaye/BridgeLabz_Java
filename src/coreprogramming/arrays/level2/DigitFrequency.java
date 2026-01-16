@@ -1,7 +1,12 @@
 package coreprogramming.arrays.level2;
 import java.util.Scanner;
 
-// This class counts the frequency of each digit in a number
+/*
+ * This class counts the frequency (occurrence) of each digit (0-9) in a
+ * given number. It uses an array to store frequency counts and displays
+ * which digits appear and how many times. This demonstrates string conversion,
+ * character analysis, and frequency counting techniques.
+ */
 public class DigitFrequency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

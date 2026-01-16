@@ -1,7 +1,12 @@
 package coreprogramming.controlflows.level3;
 import java.util.Scanner;
 
-// Checks if a number is prime by testing divisibility up to its square root
+/*
+ * This class checks whether a given number is prime by testing divisibility
+ * up to its square root. This optimized approach reduces computation time
+ * compared to checking all numbers up to n. This demonstrates efficient
+ * primality testing algorithms.
+ */
 class PrimeChecker {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
