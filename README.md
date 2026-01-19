@@ -239,3 +239,15 @@
 
 * **Issues faced**:
   * None
+
+---
+### **17/01/2026**
+
+* **What I did**:
+  * Singly Linked List
+
+* **What I’ll do next**:
+  * Doubly and Circular Linked List
+
+* **Issues faced**:
+  * None
