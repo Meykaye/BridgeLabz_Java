@@ -251,3 +251,72 @@
 
 * **Issues faced**:
   * None
+
+---
+
+### **19/01/2026**
+
+* **What I did**:
+
+  * Prepared for the review
+  * Learned about Java Classes and Objects
+
+* **What I’ll do next**:
+
+  * Learn OOP concepts and access modifiers
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **20/01/2026**
+
+* **What I did**:
+
+  * Learned OOP concepts
+  * Studied class variables and access modifiers
+
+* **What I’ll do next**:
+
+  * Practice problems related to classes, objects, and constructors
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **21/01/2026**
+
+* **What I did**:
+
+  * Completed problems related to classes and objects
+  * Practiced Java constructors
+
+* **What I’ll do next**:
+
+  * Learn static, final, and this keywords
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **22/01/2026**
+
+* **What I did**:
+
+  * Learned static, final, and this keywords
+  * Solved problems related to these concepts
+
+* **What I’ll do next**:
+
+  * Continue practicing OOP concepts
+
+* **Issues faced**:
+
+  * None
+---
