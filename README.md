@@ -320,3 +320,53 @@
 
   * None
 ---
+
+### **23/01/2026**
+
+* **What I did**:
+
+  * Learned Object Modeling concepts
+  * Studied class diagrams and their structure
+
+* **What I’ll do next**:
+
+  * Solve problems based on object modeling
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **24/01/2026**
+
+* **What I did**:
+
+  * Solved problems related to OOPS concepts
+  * Practiced applying OOP principles in code
+
+* **What I’ll do next**:
+
+  * Continue practicing advanced OOPS problems
+  * Revise object modeling and class diagrams
+
+* **Issues faced**:
+
+  * None
+
+---
+### **27/01/2026**
+
+* **What I did**:
+
+  * Solved problems related to Generics
+
+* **What I’ll do next**:
+
+  * Continue practicing problems
+
+* **Issues faced**:
+
+  * None
+
+---
