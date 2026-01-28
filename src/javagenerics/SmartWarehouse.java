@@ -1,3 +1,4 @@
+package javagenerics;
 /*
  * This program demonstrates a Smart Warehouse Management System
  * using Generics, Bounded Type Parameters, and Wildcards.

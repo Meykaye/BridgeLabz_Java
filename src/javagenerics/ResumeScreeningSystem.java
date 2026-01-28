@@ -1,3 +1,4 @@
+package javagenerics;
 /*
  * This program implements an AI-Driven Resume Screening System
  * using Generic Classes, Bounded Type Parameters, Generic Methods,

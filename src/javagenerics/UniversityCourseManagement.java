@@ -1,3 +1,4 @@
+package javagenerics;
 /*
  * This program implements a Multi-Level University Course Management System
  * using Generic Classes, Bounded Type Parameters, and Wildcards.

@@ -1,3 +1,4 @@
+package javagenerics;
 /*
  * This program implements a Personalized Meal Plan Generator
  * using Generic Methods and Bounded Type Parameters.

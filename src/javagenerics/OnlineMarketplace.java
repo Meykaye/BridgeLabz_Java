@@ -1,3 +1,4 @@
+package javagenerics;
 /*
  * This program implements a Dynamic Online Marketplace using Generics.
  * It demonstrates Type Parameters, Generic Methods, and Bounded Type Parameters
