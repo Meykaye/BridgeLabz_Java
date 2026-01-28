@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ff46f2d-def8-410d-a508-442abf5d5688" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javagenerics/OnlineMarketplace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javagenerics/PersonalizedMealPlanGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javagenerics/ResumeScreeningSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javagenerics/SmartWarehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javagenerics/UniversityCourseManagement.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0ff46f2d-def8-410d-a508-442abf5d5688" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
