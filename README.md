@@ -370,3 +370,57 @@
   * None
 
 ---
+
+### **28/01/2026 (Wednesday)**
+
+* **What I did**:
+
+  * Practiced DSA problems
+  * Learned stack data structure concepts
+  * Understood queue fundamentals
+
+* **What I’ll do next**:
+
+  * Solve more problems on stacks and queues
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **29/01/2026 (Thursday)**
+
+* **What I did**:
+
+  * Solved problems related to stacks and queues
+  * Learned HashMap concepts and usage
+
+* **What I’ll do next**:
+
+  * Practice HashMap-based problems
+  * Revise stacks and queues
+
+* **Issues faced**:
+
+  * None
+
+---
+
+### **30/01/2026 (Friday)**
+
+* **What I did**:
+
+  * Prepared for the review
+  * Started learning Java Collections framework
+
+* **What I’ll do next**:
+
+  * Continue Java Collections concepts
+  * Practice collection-based problems
+
+* **Issues faced**:
+
+  * None
+
+---
