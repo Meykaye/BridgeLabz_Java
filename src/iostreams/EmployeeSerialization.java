@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 
 class Employee implements Serializable {
+    private static final long serialVersionUID = 1L;
     int id;
     String name;
     String department;
@@ -40,6 +41,7 @@ public class EmployeeSerialization {
         try (ObjectInputStream ois =
                      new ObjectInputStream(new FileInputStream(filePath))) {
 
+            @SuppressWarnings("unchecked")
             List<Employee> savedEmployees =
                     (List<Employee>) ois.readObject();
 
