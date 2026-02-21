@@ -9,27 +9,6 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 
-class Employee {
-    String id;
-    String name;
-    String department;
-    double salary;
-
-    public Employee(String id, String name, String department, double salary) {
-        this.id = id;
-        this.name = name;
-        this.department = department;
-        this.salary = salary;
-    }
-
-    public String toString() {
-        return "ID: " + id +
-                ", Name: " + name +
-                ", Department: " + department +
-                ", Salary: " + salary;
-    }
-}
-
 public class SortCSVBySalary {
 
     public static void main(String[] args) {

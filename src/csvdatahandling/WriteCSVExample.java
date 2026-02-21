@@ -8,20 +8,6 @@ package csvdatahandling;
 import java.io.*;
 import java.util.*;
 
-class Employee {
-    String id;
-    String name;
-    String department;
-    double salary;
-
-    public Employee(String id, String name, String department, double salary) {
-        this.id = id;
-        this.name = name;
-        this.department = department;
-        this.salary = salary;
-    }
-}
-
 public class WriteCSVExample {
 
     public static void main(String[] args) {
